@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
-df = pd.read_csv("C:/Users/Vaishnavi/CA1.2/sj/heart_failure_clinical_records_dataset.csv")
+df = pd.read_csv("heart_failure_clinical_records_dataset.csv")
 
 # Features and label
 X = df.drop("DEATH_EVENT", axis=1)
